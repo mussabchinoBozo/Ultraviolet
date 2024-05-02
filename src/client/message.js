@@ -2,7 +2,7 @@ import EventEmitter from 'events';
 import HookEvent from './hook.js';
 
 /**
- * @typedef {import('./index').default} Ultraviolet
+ * @typedef {import('./index').default} Mussab
  */
 
 class MessageApi extends EventEmitter {

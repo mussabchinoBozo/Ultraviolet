@@ -2,13 +2,13 @@ import EventEmitter from 'events';
 import HookEvent from './hook.js';
 
 /**
- * @typedef {import('./index').default} Ultraviolet
+ * @typedef {import('./index').default} Mussab
  */
 
 class IDBApi extends EventEmitter {
     /**
      *
-     * @param {Ultraviolet} ctx
+     * @param {Mussab} ctx
      */
     constructor(ctx) {
         super();
