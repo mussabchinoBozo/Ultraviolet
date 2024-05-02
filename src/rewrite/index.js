@@ -41,7 +41,7 @@ import EventEmitter from 'events';
  * @typedef {import('../uv.js').UVConfig} UVConfig
  */
 
-class Ultraviolet {
+class Mussab {
     /**
      *
      * @param {UVConfig} [options]
@@ -69,7 +69,7 @@ class Ultraviolet {
             '/uv.client.js';
         this.configScript = options.config || '/uv.config.js';
         this.meta.url ||= this.meta.base || '';
-        this.codec = Ultraviolet.codec;
+        this.codec = Mussab.codec;
         this.html = new HTML(this);
         this.css = new CSS(this);
         this.js = new JS(this);
@@ -194,5 +194,5 @@ class Ultraviolet {
     static EventEmitter = EventEmitter;
 }
 
-export default Ultraviolet;
-if (typeof self === 'object') self.Ultraviolet = Ultraviolet;
+export default Mussab;
+if (typeof self === 'object') self.Mussab = Mussab;
